@@ -1,1 +1,154 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Lucas",
+  "headerTaglineOne": "Hi 🌱",
+  "headerTaglineTwo": "I'm Lucas Duport",
+  "headerTaglineThree": "A passionate student",
+  "headerTaglineFour": "based in Paris, France.",
+  "showBlog": true,
+  "darkMode": true,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/lucasduport" },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/lucas-duport/"
+    },
+    { "id": "3", "title": "Email", "link": "mailto:cv.lucasduport@icloud.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Classification and Generation of reviews",
+      "description": "Developed an NLP pipeline for predicting and generating TripAdvisor hotel reviews using classification and text generation models.",
+      "imageSrc": "https://elfsight.com/wp-content/uploads/2023/04/Carousel-Template-of-TripAdvisor-Reviews-Widget.jpg",
+      "url": "https://github.com/ArthurCourselle/NLP_TripAdvisorReviews"
+    },
+    {
+      "id": "2",
+      "title": "Short Video Recommender System",
+      "description": "Developed a content-based video recommendation system using the KuaiRec dataset, achieving 85% precision by leveraging user interactions and video metadata.",
+      "imageSrc": "https://production-media.paperswithcode.com/datasets/5fd8ce16-ff9e-4746-877c-787357837489.png",
+      "url": "https://github.com/lucasduport/Final_Project_2025_Lucas_Duport"
+    },
+    {
+      "id": "3",
+      "title": "YoutubeGPT",
+      "description": "A Python tool that generates concise audio summaries of YouTube videos in any language using ChatGPT and YouTube APIs. It takes a YouTube link and language preference as inputs, processes the video transcript, and outputs a summarized MP3 file.",
+      "imageSrc": "https://r2.erweima.ai/i/1uP9sQIlQLaj6dZDSDMgMg.png",
+      "url": "https://github.com/lucasduport/YoutubeGPT"
+    },
+    {
+      "id": "4",
+      "title": "Ask your videos",
+      "description": "Simple RAG project that allows users to query youtube videos and get answers based on their transcripts.",
+      "imageSrc": "https://miro.medium.com/v2/resize:fit:1400/1*7Lep2Jkqgt9BtiMt8icbSA.png",
+      "url": "https://github.com/lucasduport/AskYourVideos"
+    },
+    {
+      "id": "5",
+      "title": "Sudoku OCR",
+      "description": "An OCR tool for solving Sudoku puzzles using image processing techniques. Implemented from scratch in C without any external libraries.",
+      "imageSrc": "https://pyimagesearch.com/wp-content/uploads/2020/08/opencv_sudoku_puzzle_thresh.png",
+      "url": "https://github.com/lucasduport/sudoku-ocr"
+    }
+  ],
+  "services": [],
+  "aboutpara": "Looking for an end-of-study internship.",
+  "resume": {
+    "tagline": "📚 I'm still a student for now.",
+    "description": "I have a keen interest in artificial intelligence and machine learning. I have a strong foundation in programming languages such as Python, Java, C... I have worked on several projects related to AI and ML, including image classification and natural language processing. I am always eager to learn new technologies and improve my skills.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Jan 2025 - Present",
+        "type": "Contract",
+        "position": "Teaching Assistant (YAKA) at EPITA: Ecole d'Ingénieurs en Informatique",
+        "bullets": [
+          "Worked as part of a team of over 50 teaching assistants and received multiple training sessions on pedagogy and oral expression to enhance teaching skills.",
+          "Followed up on my previous experience as a teaching assistant by supporting second-semester third year students alongside my studies (approximately 50 hours per month).",
+          "Supervised various workshops, including an intensive programming week (9 AM to midnight) covering Java, JavaScript, and C++.",
+          "Also bigger projects such as one-week project to create a backend in Java using Quarkus, ORM, and Kafka, or the Tiger project, to develop a compiler in C++.",
+          "Traveled to other campuses to provide in-person assistance to students, supporting a total of 600 students."
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "Sep 2024 - Jan 2025",
+        "type": "Internship",
+        "position": "Data Scientist Intern at STMicroelectronics",
+        "bullets": [
+          "Implemented a data straightening using RAG.",
+          "Fullstack web application: search in knowledge base with RAG & annotation/validation.",
+          "Explored ways to value unstructured textual data.",
+          "Supervised by Philippe Vialletelle"
+        ]
+      },
+      {
+        "id": "3",
+        "dates": "Sep 2023 - Jun 2024",
+        "type": "Permanent",
+        "position": "Teaching Assistant C# and OCaml at EPITA: Ecole d'Ingénieurs en Informatique",
+        "bullets": [
+          "Supervision of practical works in C# and OCaml for first-year EPITA students",
+          "Designed a practical and implemented a test-suite for grading deployed for over 600 students"
+        ]
+      },
+      {
+        "id": "4",
+        "dates": "Jul 2023 - Aug 2023",
+        "type": "Permanent",
+        "position": "Software Engineer Assistant at KERQUEST",
+        "bullets": [
+          "Updated and automated server installation procedures using Debian Preseed, Ansible and shell scripts",
+          "Developed a prototype computer vision software in Python using OpenCV and Tkinter for interface.",
+          "Authored technical documentation"
+        ]
+      },
+      {
+        "id": "5",
+        "dates": "Jun 2022 - Jul 2022",
+        "type": "Indirect Contract",
+        "position": "Operator at Volvo Construction Equipment",
+        "bullets": ["Prepared engines for Volvo mini excavators"]
+      },
+      {
+        "id": "6",
+        "dates": "Jun 2021 - Aug 2021",
+        "type": "Contract",
+        "position": "Versatile Employee at McDonald's",
+        "bullets": [
+          "Order preparation",
+          "Cleaning",
+          "Table service",
+          "Cashiering",
+          "Order taking"
+        ]
+      },
+      {
+        "id": "7",
+        "dates": "Jul 2020 - Aug 2020",
+        "type": "Contract",
+        "position": "Employee at McDonald's",
+        "bullets": ["Order preparation", "Cleaning"]
+      }
+    ],
+    "education": {
+      "universityName": "EPITA: Ecole d'Ingénieurs en Informatique",
+      "universityDate": "Sep 2021 - Jul 2026",
+      "universityPara": "Grade: 3.7. AI & Data Science major. Member of communication team and student event. Enjoy engaging with peers and promoting our school's events and values. Eager to gain hands-on experience and contribute to the success of our school community. Completed a 6-month exchange semester at San Francisco State University (SFSU)."
+    },
+    "languages": [
+      "Python",
+      "Java",
+      "SQL",
+      "Scala",
+      "C / C# / C++",
+      "Scala",
+      "HTML/CSS/JS"
+    ],
+    "frameworks": ["Pandas", "Pytorch", "Keras", "FastApi"],
+    "others": ["Git / Gitlab", "Docker", "Azure", "Kubernetes", "Unix systems"]
+  },
+  "showResume": true,
+  "showCursor": true
+}
