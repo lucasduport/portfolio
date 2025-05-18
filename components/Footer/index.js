@@ -6,7 +6,7 @@ import Button from "../Button";
 const Footer = ({}) => {
   return (
     <>
-      <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
+      <div className="mt-5 laptop:mt-20 p-2 laptop:p-0">
         <div>
           <h1 className="text-2xl text-bold">Contact.</h1>
           <div className="mt-10">
@@ -16,19 +16,21 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
               TOGETHER
             </h1>
-            <Button type="primary">Schedule a call</Button>
+              <a 
+                href={`mailto:cv.lucasduport@icloud.com?subject=Internship Opportunity&body=${encodeURIComponent(
+                  "Hello Lucas,\n\nWhen would you be available for a call about a potential internship?\n\nBR,\n\nYour Name"
+                )}`}
+              >
+                <Button type="primary">
+                  Email me
+                </Button>
+              </a>
             <div className="mt-10">
               <Socials />
             </div>
           </div>
         </div>
       </div>
-      <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
-        </Link>
-      </h1>
     </>
   );
 };
