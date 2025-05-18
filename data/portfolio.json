@@ -4,7 +4,7 @@
   "headerTaglineTwo": "I'm Lucas Duport",
   "headerTaglineThree": "A passionate student",
   "headerTaglineFour": "based in Paris, France.",
-  "showBlog": true,
+  "showBlog": false,
   "darkMode": true,
   "socials": [
     { "id": "1", "title": "Github", "link": "https://github.com/lucasduport" },
