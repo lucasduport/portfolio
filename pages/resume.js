@@ -15,8 +15,8 @@ const Resume = () => {
 
   // PDF URLs
   const pdfUrls = {
-    en: "https://raw.githubusercontent.com/lucasduport/lucasduport/main/CV_EN_2025.pdf",
-    fr: "https://raw.githubusercontent.com/lucasduport/lucasduport/main/CV_FR_2025.pdf",
+    en: "https://raw.githubusercontent.com/lucasduport/portfolio/main/cvs/CV_EN_2025.pdf",
+    fr: "https://raw.githubusercontent.com/lucasduport/portfolio/main/cvs/CV_FR_2025.pdf",
   };
 
   const openPDF = () => {
