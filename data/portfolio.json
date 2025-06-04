@@ -13,7 +13,12 @@
       "title": "LinkedIn",
       "link": "https://www.linkedin.com/in/lucas-duport/"
     },
-    { "id": "3", "title": "Email", "link": "mailto:cv.lucasduport@icloud.com" }
+    {
+      "id": "3",
+      "title": "Resume",
+      "link": "/resume"
+    },
+    { "id": "4", "title": "Email", "link": "mailto:cv.lucasduport@icloud.com" }
   ],
   "projects": [
     {
