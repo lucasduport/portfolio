@@ -97,7 +97,7 @@ const Resume = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {language === 'en' 
-                      ? `${data.name}&apos;s Resume`
+                      ? `${data.name}'s Resume`
                       : `CV de ${data.name}`
                     }
                   </h3>
