@@ -34,7 +34,7 @@ const Resume = () => {
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
             <div className="w-full max-w-4xl mob:p-5 desktop:p-20">
-              <h1 className="text-3xl font-bold text-center mb-8">{data.name}'s Resume</h1>
+              <h1 className="text-3xl font-bold text-center mb-8">{data.name}&apos;s Resume</h1>
               
               <div className="text-center mb-8">
                 <h2 className="text-xl mb-6">
@@ -97,7 +97,7 @@ const Resume = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {language === 'en' 
-                      ? `${data.name}'s Resume`
+                      ? `${data.name}&apos;s Resume`
                       : `CV de ${data.name}`
                     }
                   </h3>
