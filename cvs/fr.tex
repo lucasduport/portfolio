@@ -1,0 +1,198 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[french]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Lucas Duport}
+\end{center}
+
+\begin{center}
+\small +33 6 87 61 33 64 $|$
+\href{mailto:cv.lucasduport@icloud.com}{\underline{cv.lucasduport@icloud.com}} $|$
+\href{https://www.lucasduport.cc}{\underline{lucasduport.cc}}
+\end{center}
+
+%-----------PROFIL-----------
+\section*{Profil}
+\noindent
+Étudiant en dernière année à l’EPITA, spécialisé en Intelligence Artificielle et Vision par Ordinateur. Je suis à la recherche d’un stage de fin d’études de 6 mois à partir de février 2026 pour mettre en pratique mes compétences et contribuer à des projets à fort impact au sein de votre organisation.
+
+%-----------FORMATION-----------
+\section{Formation}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {EPITA - Diplôme d’ingénieur en informatique}{Paris, France}
+      {Spécialisation : Intelligence Artificielle \& Vision par Ordinateur | Membre d’une association étudiante}{2021 -- 2026}
+\vspace{0.1em}
+\resumeSubheading
+  {San Francisco State University - Informatique}{San Francisco, CA}
+  {Semestre d’échange — \textit{Ambassadeur EPITA}}{2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPÉRIENCE PROFESSIONNELLE-----------
+\section{Expérience Professionnelle}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {STMicroelectronics}{Grenoble, France}
+      {Stagiaire Data Scientist}{2025 (6 mois)}
+      \resumeItemListStart
+        \resumeItem{Développement d’un pipeline d’augmentation de données avec \textbf{RAG} pour la synthèse de textes techniques.}
+        \resumeItem{Création d’une plateforme full-stack avec FastAPI et une interface en HTML/CSS/JavaScript pour la validation et l’annotation de données.}
+        \resumeItem{Conception et amélioration d’un \textbf{système de suggestion de causes} en fonction de symptômes en collaboration avec les utilisateurs finaux.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Kerquest SAS}{Paris, France}
+      {Stagiaire Développement Logiciel}{2023 (2 mois)}
+      \resumeItemListStart
+          \resumeItem{Développement d’un prototype de système de vision par ordinateur pour \textbf{détecter des objets sur une grille} dans une ligne de production.}
+        \resumeItem{Création d’une interface opérateur pour l’assistance à la détection en temps réel.}
+        \resumeItem{Automatisation de l’installation de serveurs avec Debian Preseed, Ansible et des scripts Bash.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {EPITA}{Paris, France}
+      {Assistant Professeur}{2023 -- 2026}
+      \resumeItemListStart
+        \resumeItem{Membre d’une équipe de 60 étudiants encadrant plus de 800 élèves de 3\textsuperscript{e} année dans leurs activités de programmation.}
+        \resumeItem{Assistance au \textbf{debugging et réponses aux questions techniques} dans plusieurs langages.}
+        \resumeItem{Conception de travaux pratiques et déploiement de systèmes de correction automatique pour plus de 600 étudiants de 1\textsuperscript{re} année.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJETS-----------
+\section{Projets}
+  \resumeSubHeadingListStart
+
+\resumeSubheading
+  {Analyse d’avis TripAdvisor}{Groupe de 5}
+  {Python}{2025}
+  \resumeItemListStart
+    \resumeItem{Développement d’un pipeline pour \textbf{classer les avis d’hôtels et générer} du texte synthétique à partir de mots-clés et notes.}
+    \resumeItem{Implémentation et comparaison de régression logistique, RNNs, FNNs et transformers.}
+    \resumeItem{Traitement du déséquilibre des classes avec \textbf{nlpaug}, augmentant fortement la précision.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Lecteur \& Solveur de Sudoku}{Groupe de 4}
+  {C}{2023}
+  \resumeItemListStart
+    \resumeItem{Développement d’un système complet pour \textbf{détecter, extraire et résoudre} des Sudoku à partir d’images, intégralement en C, sans bibliothèque externe.}
+    \resumeItem{Application de prétraitements : conversion en niveaux de gris, filtres de Gauss et de Sobel, redimensionnement manuel.}
+    \resumeItem{Intégration d’un classificateur de chiffres et d’un solveur personnalisé dans une interface utilisateur intuitive.}
+  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+%-----------COMPÉTENCES & INTÉRÊTS-----------
+\section{Compétences \& Centres d’intérêt}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Langages}{ : Python, C, C++, Java, SQL, JavaScript, Bash, C\#} \\
+    \textbf{Outils}{ : Git/GitHub/GitLab, Docker, Linux.} \\
+    \textbf{Langues}{ : Français (natif), Anglais (\textbf{970/990 TOEIC}), Italien (notions).} \\
+    \textbf{Savoir-être}{ : Curieux, passionné, bon communicant, calme, positif, travailleur.} \\
+    \textbf{Centres d’intérêt}{ : Homelab, ski, horlogerie, poker, voyages.}
+  }}
+\end{itemize}
+
+\end{document}
