@@ -9,30 +9,17 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage{tabularx}
-\input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
+\usepackage{fontawesome5}
+\usepackage{fontawesome}
 
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
@@ -40,47 +27,48 @@
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
-
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
-%-------------------------
-% Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheadingWithRef}[5]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} \hspace{1em} \textit{\scriptsize Réf : #5} & \textit{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+  \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -92,106 +80,99 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
-%%%%%%  CV  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge \scshape Lucas Duport}
+  \textbf{\Huge \scshape Lucas Duport}
 \end{center}
 
 \begin{center}
-\small +33 6 87 61 33 64 $|$
-\href{mailto:cv.lucasduport@icloud.com}{\underline{cv.lucasduport@icloud.com}} $|$
-\href{https://www.lucasduport.cc}{\underline{lucasduport.cc}}
+  \small \faPhone\ +33 6 87 61 33 64 $|$
+  \faEnvelope\ \href{mailto:cv.lucasduport@icloud.com}{cv.lucasduport@icloud.com} $|$
+  \faLink\ \href{https://lucasduport.cc}{lucasduport.cc}
 \end{center}
 
-%-----------PROFIL-----------
-\section*{Profil}
-\noindent
-Étudiant en dernière année à l’EPITA, spécialisé en Intelligence Artificielle et Vision par Ordinateur. Je suis à la recherche d’un stage de fin d’études de 6 mois à partir de février 2026 pour mettre en pratique mes compétences et contribuer à des projets à fort impact au sein de votre organisation.
+\begin{center}
+  \small \faCalendar\ Stage en février 2026 (6 mois) $|$
+  \faGlobe\ Mobilité internationale
+\end{center}
 
-%-----------FORMATION-----------
-\section{Formation}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {EPITA - Diplôme d’ingénieur en informatique}{Paris, France}
-      {Spécialisation : Intelligence Artificielle \& Vision par Ordinateur | Membre d’une association étudiante}{2021 -- 2026}
-\vspace{0.1em}
-\resumeSubheading
-  {San Francisco State University - Informatique}{San Francisco, CA}
-  {Semestre d’échange — \textit{Ambassadeur EPITA}}{2023}
-  \resumeSubHeadingListEnd
+\section*{\small \faGraduationCap\ \large Formation}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {EPITA – Diplôme d’ingénieur en informatique}{Paris, France}
+    {Majeure : Intelligence Artificielle \& Vision par Ordinateur | GPA : 3.7 | Implication vie associative}{2021 -- 2026}
 
+  \resumeSubheading
+    {San Francisco State University – Informatique}{San Francisco, CA}
+    {Semestre d’échange | GPA : 3.9 | \textit{Ambassadeur EPITA}}{2023}
+\resumeSubHeadingListEnd
 
-%-----------EXPÉRIENCE PROFESSIONNELLE-----------
-\section{Expérience Professionnelle}
-  \resumeSubHeadingListStart
+\section*{\small \faBriefcase\ \large Expérience}
+\resumeSubHeadingListStart
+  \resumeSubheadingWithRef
+    {Assistant Professeur}{Paris, France}
+    {EPITA}{2023 -- Présent}
+    {Valentin SEUX, Directeur adjoint – \href{mailto:valentin.seux@epita.fr}{valentin.seux@epita.fr}}
+    \resumeItemListStart
+    \resumeItem{Membre d’une équipe de 60 étudiants encadrant plus de 800 étudiants de 3\textsuperscript{e} année en activités de programmation.}
+      \resumeItem{Assistance au \textbf{débug et réponses aux questions techniques} sur plusieurs langages de programmation.}
+    \resumeItem{Élaboration d’un TP unique avec système d’évaluation automatique, déployé auprès de 600+ étudiants de 1\textsuperscript{re} année.}
+      \resumeItem{Participation à des ateliers sur la pédagogie, la posture, la motivation, la voix et le langage corporel.}
+      \resumeItem{Test approfondi de projets et de suites de tests, avec un retour constructif.}
+    \resumeItemListEnd
 
-    \resumeSubheading
-      {STMicroelectronics}{Grenoble, France}
-      {Stagiaire Data Scientist}{2025 (6 mois)}
-      \resumeItemListStart
-        \resumeItem{Développement d’un pipeline d’augmentation de données avec \textbf{RAG} pour la synthèse de textes techniques.}
-        \resumeItem{Création d’une plateforme full-stack avec FastAPI et une interface en HTML/CSS/JavaScript pour la validation et l’annotation de données.}
-        \resumeItem{Conception et amélioration d’un \textbf{système de suggestion de causes} en fonction de symptômes en collaboration avec les utilisateurs finaux.}
-      \resumeItemListEnd
+  \resumeSubheadingWithRef
+    {Stagiaire Data Scientist}{Grenoble, France}
+    {STMicroelectronics}{2025 (6 mois)}
+    {Philippe VIALLETELLE, Data Science – \href{mailto:philippe.vialletelle@st.com}{philippe.vialletelle@st.com}}
+    \resumeItemListStart
+      \resumeItem{Développement d’un pipeline d’augmentation de données utilisant \textbf{RAG} pour la synthèse de textes techniques.}
+      \resumeItem{Création d’une plateforme full-stack avec FastAPI et frontend HTML/CSS/JavaScript pour validation/annotation.}
+      \resumeItem{Conception et amélioration d’un \textbf{système de suggestion de cause racine} à partir de symptômes, en lien avec les utilisateurs.}
+    \resumeItemListEnd
 
-    \resumeSubheading
-      {Kerquest SAS}{Paris, France}
-      {Stagiaire Développement Logiciel}{2023 (2 mois)}
-      \resumeItemListStart
-          \resumeItem{Développement d’un prototype de système de vision par ordinateur pour \textbf{détecter des objets sur une grille} dans une ligne de production.}
-        \resumeItem{Création d’une interface opérateur pour l’assistance à la détection en temps réel.}
-        \resumeItem{Automatisation de l’installation de serveurs avec Debian Preseed, Ansible et des scripts Bash.}
-      \resumeItemListEnd
+  \resumeSubheading
+    {Stagiaire Développeur Logiciel}{Paris, France}
+    {Kerquest SAS}{2023 (2 mois)}
+    {}
+    \resumeItemListStart
+      \resumeItem{Prototype de \textbf{détection de types d’objets sur une grille} de ligne de production avec de la vision par ordinateur.}
+      \resumeItem{Interface pour opérateur facilitant la détection en temps réel.}
+      \resumeItem{Automatisation de l’installation serveur via Preseed Debian, Ansible, Bash.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
 
-    \resumeSubheading
-      {EPITA}{Paris, France}
-      {Assistant Professeur}{2023 -- 2026}
-      \resumeItemListStart
-        \resumeItem{Membre d’une équipe de 60 étudiants encadrant plus de 800 élèves de 3\textsuperscript{e} année dans leurs activités de programmation.}
-        \resumeItem{Assistance au \textbf{debugging et réponses aux questions techniques} dans plusieurs langages.}
-        \resumeItem{Conception de travaux pratiques et déploiement de systèmes de correction automatique pour plus de 600 étudiants de 1\textsuperscript{re} année.}
-      \resumeItemListEnd
+\section*{\small \faProjectDiagram\ \large Projets}
+\resumeSubHeadingListStart
 
-  \resumeSubHeadingListEnd
+  \resumeSubheading
+    {Analyse de commentaires TripAdvisor}{\small \faGroup\ \normalsize 5}
+    {Python}{2025}
+    {}
+    \resumeItemListStart
+      \resumeItem{Pipeline pour \textbf{classifier les avis d’hôtel et générer} du texte synthétique à partir de mots-clés et de notes.}
+      \resumeItem{Implémentation et comparaison de régression logistique, RNN, FNN et transformers.}
+    \resumeItemListEnd
 
-%-----------PROJETS-----------
-\section{Projets}
-  \resumeSubHeadingListStart
+  \resumeSubheading
+    {OCR Sudoku from Scratch}{\small \faGroup\ \normalsize 4}
+    {C}{2023}
+    {}
+    \resumeItemListStart
+      \resumeItem{Implémentation complète d'un outil qui \textbf{détecte, extrait et résout} un Sudoku à partir d’images – uniquement en C sans bibliothèques externes.}
+    \resumeItemListEnd
 
-\resumeSubheading
-  {Analyse d’avis TripAdvisor}{Groupe de 5}
-  {Python}{2025}
-  \resumeItemListStart
-    \resumeItem{Développement d’un pipeline pour \textbf{classer les avis d’hôtels et générer} du texte synthétique à partir de mots-clés et notes.}
-    \resumeItem{Implémentation et comparaison de régression logistique, RNNs, FNNs et transformers.}
-    \resumeItem{Traitement du déséquilibre des classes avec \textbf{nlpaug}, augmentant fortement la précision.}
-  \resumeItemListEnd
+\resumeSubHeadingListEnd
 
-\resumeSubheading
-  {Lecteur \& Solveur de Sudoku}{Groupe de 4}
-  {C}{2023}
-  \resumeItemListStart
-    \resumeItem{Développement d’un système complet pour \textbf{détecter, extraire et résoudre} des Sudoku à partir d’images, intégralement en C, sans bibliothèque externe.}
-    \resumeItem{Application de prétraitements : conversion en niveaux de gris, filtres de Gauss et de Sobel, redimensionnement manuel.}
-    \resumeItem{Intégration d’un classificateur de chiffres et d’un solveur personnalisé dans une interface utilisateur intuitive.}
-  \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-  
-%-----------COMPÉTENCES & INTÉRÊTS-----------
-\section{Compétences \& Centres d’intérêt}
+\section*{\small \faTools\ \large Compétences \& Centres d’intérêt}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
-    \textbf{Langages}{ : Python, C, C++, Java, SQL, JavaScript, Bash, C\#} \\
+    \textbf{Compétences techniques}{ : Python, C, C++, Java, SQL, JavaScript, Bash, C\#.} \\
     \textbf{Outils}{ : Git/GitHub/GitLab, Docker, Linux.} \\
-    \textbf{Langues}{ : Français (natif), Anglais (\textbf{970/990 TOEIC}), Italien (notions).} \\
-    \textbf{Savoir-être}{ : Curieux, passionné, bon communicant, calme, positif, travailleur.} \\
-    \textbf{Centres d’intérêt}{ : Homelab, ski, horlogerie, poker, voyages.}
+    \textbf{Langues}{ : Français (natif), Anglais (\textbf{970/990 TOEIC}), Italien (B2).} \\
+    \textbf{Qualités personnelles}{ : Curieux, passionné, bonne communication, calme, positif, travailleur.} \\
+    \textbf{Centres d’intérêt}{ : Homelab, ski, horlogerie, poker, voyage.}
   }}
 \end{itemize}
 

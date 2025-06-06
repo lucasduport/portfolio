@@ -16,7 +16,6 @@
 \usepackage{pifont}
 \input{glyphtounicode}
 
-
 %----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
@@ -27,7 +26,6 @@
 % serif
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -43,7 +41,6 @@
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
-
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
@@ -59,31 +56,37 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheadingWithRef}[5]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} \hspace{1em} \textit{\scriptsize Ref: #5} & \textit{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+  \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -98,116 +101,104 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge \scshape Lucas Duport}
+  \textbf{\Huge \scshape Lucas Duport}
 \end{center}
 
 \begin{center}
-\small \faPhone\ +33 6 87 61 33 64 $|$
-\faEnvelope\ \href{mailto:cv.lucasduport@icloud.com}{cv.lucasduport@icloud.com} $|$
-\faLink\ \href{https://lucasduport.cc}{lucasduport.cc}
-\small 
-
+  \small \faPhone\ +33 6 87 61 33 64 $|$
+  \faEnvelope\ \href{mailto:cv.lucasduport@icloud.com}{cv.lucasduport@icloud.com} $|$
+  \faLink\ \href{https://lucasduport.cc}{lucasduport.cc}
 \end{center}
 
 \begin{center}
-\small \faCalendar\ Internship in February 2026 (6 months) $|$
-\faGlobe\ Worldwide
+  \small \faCalendar\ Internship in February 2026 (6 months) $|$
+  \faGlobe\ Worldwide
 \end{center}
 
 %-----------EDUCATION-----------
-\section*{ \small \faGraduationCap\ \large Education}
+\section*{\small \faGraduationCap\ \large Education}
 \resumeSubHeadingListStart
-    \resumeSubheading
-      {EPITA - Master’s Degree in Computer Engineering}{Paris, France}
-      {Major: Artificial Intelligence \& Computer Vision | GPA: 3.7 |  Member of student association}{2021 -- 2026}
-      
-\resumeSubheading
-  {San Francisco State University - Computer Science}{San Francisco, CA}
-  {Exchange Semester | GPA: 3.9 | \textit{EPITA Student Ambassador}}{2023}
-  \resumeSubHeadingListEnd
+  \resumeSubheading
+    {EPITA - Master’s Degree in Computer Engineering}{Paris, France}
+    {Major: Artificial Intelligence \& Computer Vision | GPA: 3.7 | Member of student association}{2021 -- 2026}
 
+  \resumeSubheading
+    {San Francisco State University - Computer Science}{San Francisco, CA}
+    {Exchange Semester | GPA: 3.9 | \textit{EPITA Student Ambassador}}{2023}
+\resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
-\section*{ \small  \faBriefcase\ \large Experience}  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Teaching Assistant}{Paris, France}
-      {EPITA}{2023 -- Present}
-      \resumeItemListStart
-        \resumeItem{Part of a team of 60 students that support 800+ third-year students in coding activities alongside my studies.}
-        \resumeItem{Assisted in \textbf{debugging and answering technical questions} in various programming languages.}
-        \resumeItem{Designed practicals and deployed automatic grading systems for 600+ first-year students.}
-        \resumeItem{Attended workshops regarding pedagogic approach, posture, motivation, voice, and body language.}
-        \resumeItem{Crash-tested multiple projects and test suites and gave constructive feedback.}
-      \resumeItemListEnd
+\section*{\small \faBriefcase\ \large Experience}
+\resumeSubHeadingListStart
+  \resumeSubheadingWithRef
+    {Teaching Assistant}{Paris, France}
+    {EPITA}{2023 -- Present}
+    {Valentin SEUX, Associate Director – \href{mailto:valentin.seux@epita.fr}{valentin.seux@epita.fr}}
+    \resumeItemListStart
+      \resumeItem{Part of a team of 60 students that support 800+ third-year students in coding activities alongside my studies.}
+      \resumeItem{Assisted in \textbf{debugging and answering technical questions} in various programming languages.}
+      \resumeItem{Designed practicals and deployed automatic grading systems for 600+ first-year students.}
+      \resumeItem{Attended workshops regarding pedagogic approach, posture, motivation, voice, and body language.}
+      \resumeItem{Crash-tested multiple projects and test suites and gave constructive feedback.}
+    \resumeItemListEnd
 
-    \resumeSubheading
-      {Data Scientist Intern}{Grenoble, France}
-      {STMicroelectronics}{2025 (6 months)}
-      \resumeItemListStart
-        \resumeItem{Developed a data augmentation pipeline using \textbf{RAG} for technical text summarization.}
-        \resumeItem{Built a full-stack platform using FastAPI, with a frontend in HTML/CSS/JavaScript for data validation and annotation.}
-        \resumeItem{Designed and improved a \textbf{root cause suggestion system} based on reported symptoms in collaboration with end-users.}
-      \resumeItemListEnd
+  \resumeSubheadingWithRef
+    {Data Scientist Intern}{Grenoble, France}
+    {STMicroelectronics}{2025 (6 months)}
+    {Philippe VIALLETELLE, Data Science – \href{mailto:philippe.vialletelle@st.com}{philippe.vialletelle@st.com}}
+    \resumeItemListStart
+      \resumeItem{Developed a data augmentation pipeline using \textbf{RAG} for technical text summarization.}
+      \resumeItem{Built a full-stack platform using FastAPI, with a frontend in HTML/CSS/JavaScript for data validation and annotation.}
+      \resumeItem{Designed and improved a \textbf{root cause suggestion system} based on reported symptoms in collaboration with end-users.}
+    \resumeItemListEnd
 
-    \resumeSubheading
-      {Software Engineering Intern}{Paris, France}
-      {Kerquest SAS}{2023 (2 months)}
-      \resumeItemListStart
-          \resumeItem{Developed a prototype computer vision system to \textbf{detect object types on a grid} in a production line, improving automation readiness.}
-        \resumeItem{Created an operator-facing interface to assist with real-time detection and decision-making.}
-        \resumeItem{Automated server installation using Debian Preseed, Ansible, and Bash scripts.}
-      \resumeItemListEnd
-
-
-
-  \resumeSubHeadingListEnd
+  \resumeSubheading
+    {Software Engineering Intern}{Paris, France}
+    {Kerquest SAS}{2023 (2 months)}
+    {}
+    \resumeItemListStart
+      \resumeItem{Developed a prototype computer vision system to \textbf{detect object types on a grid} in a production line, improving automation readiness.}
+      \resumeItem{Created an operator-facing interface to assist with real-time detection and decision-making.}
+      \resumeItem{Automated server installation using Debian Preseed, Ansible, and Bash scripts.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section*{\small \faProjectDiagram\ \large Projects}
 \resumeSubHeadingListStart
 
-\resumeSubheading
-  {TripAdvisor Review Analysis}{\small \faGroup\ \normalsize 5}
-  {Python}{2025}
-  \resumeItemListStart
-    \resumeItem{Developed a pipeline to \textbf{classify hotel reviews and generate} synthetic text using keywords and ratings.}
-    \resumeItem{Implemented and compared logistic regression, RNNs, FNNs, and transformers.}
-  \resumeItemListEnd
+  \resumeSubheading
+    {TripAdvisor Review Analysis}{\small \faGroup\ \normalsize 5}
+    {Python}{2025}
+    {}
+    \resumeItemListStart
+      \resumeItem{Developed a pipeline to \textbf{classify hotel reviews and generate} synthetic text using keywords and ratings.}
+      \resumeItem{Implemented and compared logistic regression, RNNs, FNNs, and transformers.}
+    \resumeItemListEnd
 
-\resumeSubheading
-  {Sudoku OCR from Scratch}{\small \faGroup\ \normalsize 4}
-  {C}{2023}
-  \resumeItemListStart
-    \resumeItem{Built an end-to-end system that \textbf{detects, extracts, and solves} Sudoku puzzles from images using classical 
-    image processing and neural networks — entirely built in C without external libraries.}
-  \resumeItemListEnd
+  \resumeSubheading
+    {Sudoku OCR from Scratch}{\small \faGroup\ \normalsize 4}
+    {C}{2023}
+    {}
+    \resumeItemListStart
+      \resumeItem{Built an end-to-end system that \textbf{detects, extracts, and solves} Sudoku puzzles from images using classical image processing and neural networks — entirely built in C without external libraries.}
+    \resumeItemListEnd
 
-  \resumeSubHeadingListEnd
-  
+\resumeSubHeadingListEnd
+
 %-----------SKILLS & INTERESTS-----------
 \section*{\small \faTools\ \large Skills \& Interests}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
     \textbf{Technical Skills}{: Python, C, C++, Java, SQL, JavaScript, Bash, C\#.} \\
     \textbf{Tools}{: Git/GitHub/GitLab, Docker, Linux.} \\
-    \textbf{Languages}{: French (native), English (\textbf{970/990 TOEIC}), Italian (basic).} \\
-    \textbf{Soft Skills}{: Curious, passionate, strong  communication, calm, positive, hard worker.} \\
+    \textbf{Languages}{: French (native), English (\textbf{970/990 TOEIC}), Italian (B2).} \\
+    \textbf{Soft Skills}{: Curious, passionate, strong communication, calm, positive, hard worker.} \\
     \textbf{Interests}{: Homelab, ski, watchmaking, poker, travel.}
   }}
-\end{itemize}
-
-%-----------REFERENCES-----------
-\section*{\small \faUserTie\ \tiny References}
-\begin{itemize}[leftmargin=0.15in, label={}]
-  \item \textbf{Valentin SEUX}, Associate Director, Paris Site, EPITA \\
-  \textit{valentin.seux@epita.fr} \\
-
-  \item \textbf{Philippe VIALLETELLE}, Manufacturing Data Science, STMicroelectronics \\
-  \textit{philippe.vialletelle@st.com} \\
 \end{itemize}
 
 \end{document}
