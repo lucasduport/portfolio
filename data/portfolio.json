@@ -23,34 +23,41 @@
   "projects": [
     {
       "id": "1",
+      "title": "WhatsUpDoc",
+      "description": "This project lead my group to the final of Google Hackathon “Solve for Healthcare & Life Sciences with Gemma”. We built a conversational human-like avatar AI assistant that guides patients through a pre-diagnosis with our specialized MedGemma-4B model before taking a medical appointment.",
+      "imageSrc": "https://raw.githubusercontent.com/lucasduport/portfolio/refs/heads/main/public/images/preview-whatsupdoc.png",
+      "url": "https://whatsupdoc-web-app.vercel.app/"
+    },
+    {
+      "id": "2",
       "title": "Classification and Generation of reviews",
       "description": "Developed an NLP pipeline for predicting and generating TripAdvisor hotel reviews using classification and text generation models.",
       "imageSrc": "https://elfsight.com/wp-content/uploads/2023/04/Carousel-Template-of-TripAdvisor-Reviews-Widget.jpg",
       "url": "https://github.com/ArthurCourselle/NLP_TripAdvisorReviews"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Short Video Recommender System",
       "description": "Developed a content-based video recommendation system using the KuaiRec dataset, achieving 85% precision by leveraging user interactions and video metadata.",
       "imageSrc": "https://production-media.paperswithcode.com/datasets/5fd8ce16-ff9e-4746-877c-787357837489.png",
       "url": "https://github.com/lucasduport/Final_Project_2025_Lucas_Duport"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "YoutubeGPT",
       "description": "A Python tool that generates concise audio summaries of YouTube videos in any language using ChatGPT and YouTube APIs. It takes a YouTube link and language preference as inputs, processes the video transcript, and outputs a summarized MP3 file.",
       "imageSrc": "https://r2.erweima.ai/i/1uP9sQIlQLaj6dZDSDMgMg.png",
       "url": "https://github.com/lucasduport/YoutubeGPT"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Ask your videos",
       "description": "Simple RAG project that allows users to query youtube videos and get answers based on their transcripts.",
       "imageSrc": "https://miro.medium.com/v2/resize:fit:1400/1*7Lep2Jkqgt9BtiMt8icbSA.png",
       "url": "https://github.com/lucasduport/AskYourVideos"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Sudoku OCR",
       "description": "An OCR tool for solving Sudoku puzzles using image processing techniques. Implemented from scratch in C without any external libraries.",
       "imageSrc": "https://pyimagesearch.com/wp-content/uploads/2020/08/opencv_sudoku_puzzle_thresh.png",
