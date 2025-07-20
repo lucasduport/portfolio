@@ -37,27 +37,34 @@
     },
     {
       "id": "3",
+      "title": "IoT Ring Health Monitoring System",
+      "description": "A comprehensive, scalable IoT system for monitoring health data from smart rings. It uses a microservices architecture with Kafka for real-time data streaming, MinIO for storage, and Apache Spark for analysis, featuring real-time anomaly detection and alerting.",
+      "imageSrc": "https://raw.githubusercontent.com/lucasduport/iot-ring-monitoring/main/docs/project-archi.png",
+      "url": "https://github.com/lucasduport/iot-ring-monitoring"
+    },
+    {
+      "id": "4",
       "title": "Short Video Recommender System",
       "description": "Developed a content-based video recommendation system using the KuaiRec dataset, achieving 85% precision by leveraging user interactions and video metadata.",
       "imageSrc": "https://production-media.paperswithcode.com/datasets/5fd8ce16-ff9e-4746-877c-787357837489.png",
       "url": "https://github.com/lucasduport/Final_Project_2025_Lucas_Duport"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "YoutubeGPT",
       "description": "A Python tool that generates concise audio summaries of YouTube videos in any language using ChatGPT and YouTube APIs. It takes a YouTube link and language preference as inputs, processes the video transcript, and outputs a summarized MP3 file.",
       "imageSrc": "https://r2.erweima.ai/i/1uP9sQIlQLaj6dZDSDMgMg.png",
       "url": "https://github.com/lucasduport/YoutubeGPT"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Ask your videos",
       "description": "Simple RAG project that allows users to query youtube videos and get answers based on their transcripts.",
       "imageSrc": "https://miro.medium.com/v2/resize:fit:1400/1*7Lep2Jkqgt9BtiMt8icbSA.png",
       "url": "https://github.com/lucasduport/AskYourVideos"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "Sudoku OCR",
       "description": "An OCR tool for solving Sudoku puzzles using image processing techniques. Implemented from scratch in C without any external libraries.",
       "imageSrc": "https://pyimagesearch.com/wp-content/uploads/2020/08/opencv_sudoku_puzzle_thresh.png",
