@@ -1,6 +1,5 @@
 {
   "name": "react-portfolio-template",
-  "version": "3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -34,5 +33,19 @@
   "devDependencies": {
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6"
-  }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasduport/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasduport/portfolio/issues"
+  },
+  "homepage": "https://github.com/lucasduport/portfolio#readme"
 }
