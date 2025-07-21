@@ -56,6 +56,15 @@ const Resume = () => {
                     <span className="text-2xl">🇫🇷</span>
                     <span className="font-medium">Français</span>
                   </button>
+                  {/* Download Button */}
+                  <a
+                    href={pdfUrls[language]}
+                    download
+                    className="flex items-center space-x-3 px-6 py-3 rounded-md transition-all bg-gray-200 text-gray-800 hover:bg-gray-300"
+                  >
+                    <span className="text-2xl">⬇️</span>
+                    <span className="font-medium">Download</span>
+                  </a>
                 </div>
               </div>
 
