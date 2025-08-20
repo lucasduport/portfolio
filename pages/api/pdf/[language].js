@@ -3,8 +3,8 @@ import { NextApiRequest, NextApiResponse } from 'next';
 export default async function handler(req, res) {
   const { language } = req.query;
   const pdfUrls = {
-    en: 'https://raw.githubusercontent.com/lucasduport/portfolio/main/cvs/CV_EN_2025.pdf',
-    fr: 'https://raw.githubusercontent.com/lucasduport/portfolio/main/cvs/CV_FR_2025.pdf',
+    en: 'https://raw.githubusercontent.com/lucasduport/portfolio/main/data/cvs/CV_EN_2025.pdf',
+    fr: 'https://raw.githubusercontent.com/lucasduport/portfolio/main/data/cvs/CV_FR_2025.pdf',
   };
 
   const url = pdfUrls[language];

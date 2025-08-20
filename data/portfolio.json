@@ -38,7 +38,7 @@
     {
       "id": "3",
       "title": "IoT Ring Health Monitoring System",
-      "description": "A comprehensive, scalable IoT system for monitoring health data from smart rings. It uses a microservices architecture with Kafka for real-time data streaming, MinIO for storage, and Apache Spark for analysis, featuring real-time anomaly detection and alerting.",
+      "description": "A scalable IoT system for monitoring health data from smart rings. It uses a microservices architecture with Kafka for real-time data streaming, MinIO for storage, and Apache Spark for analysis, featuring real-time anomaly detection and alerting.",
       "imageSrc": "https://raw.githubusercontent.com/lucasduport/iot-ring-monitoring/main/docs/project-archi.png",
       "url": "https://github.com/lucasduport/iot-ring-monitoring"
     },
@@ -46,7 +46,7 @@
       "id": "4",
       "title": "Short Video Recommender System",
       "description": "Developed a content-based video recommendation system using the KuaiRec dataset, achieving 85% precision by leveraging user interactions and video metadata.",
-      "imageSrc": "https://production-media.paperswithcode.com/datasets/5fd8ce16-ff9e-4746-877c-787357837489.png",
+      "imageSrc": "https://media.licdn.com/dms/image/v2/C5612AQH3iHcmYUpKQw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1594566576732?e=2147483647&v=beta&t=PsEcyDdQ_rEeJh_CwTdkkSB2zBd-ZLpfrsgs-iI5V0k",
       "url": "https://github.com/lucasduport/Final_Project_2025_Lucas_Duport"
     },
     {
@@ -73,5 +73,21 @@
   ],
   "services": [],
   "aboutpara": "Passionate EPITA student, curious, devoted, and pedagogical. I love sharing, traveling, skiing, watchmaking, and new technologies. My home lab allows me to have my own server to host services and do recreational deployments.",
-  "showCursor": true
+  "showCursor": true,
+  "recommendations": [
+    {
+      "name": "Philippe VIALLETELLE",
+      "position": "Senior Member of Technical Staff, Manufacturing Data & Analytics Program",
+      "company": "STMicroelectronics",
+      "linkedin": "https://www.linkedin.com/in/philippe-vialletelle-3066a63/",
+  "companyLogo": "https://cdn-assets.inwink.com/e3d94d99-ffd5-4dcb-a655-6f0f2cd6d139/e595242f-7174-4889-8039-bee7e197a7be",
+  "companyUrl": "https://www.st.com",
+      "citations": [
+        "Lucas took on the challenging task of completely reengineering a proof-of-concept tool to finally propose an innovative solution for maintenance technicians leveraging generative AI techniques.",
+        "Lucas consistently exhibited a proactive attitude, excellent teamwork, and effective communication skills, making valuable contributions to our team discussions and project milestones.",
+        "The solution developed by Lucas is today being deployed as a pilot at 3 other factories to support the definition of our future industrial solution for maintenance line engineers and technicians."
+      ],
+      "letterUrl": "https://raw.githubusercontent.com/lucasduport/portfolio/main/data/letters/st.pdf"
+    }
+  ]
 }

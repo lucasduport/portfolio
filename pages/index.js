@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
@@ -10,34 +9,38 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import RecommendationSection from "../components/RecommendationSection";
 
 // Local Data
 import data from "../data/portfolio.json";
 
 export default function Home() {
   // Ref
-  const workRef = useRef();
-  const aboutRef = useRef();
-  const textOne = useRef();
-  const textTwo = useRef();
-  const textThree = useRef();
-  const textFour = useRef();
+  const workRef = useRef(null);
+  const aboutRef = useRef(null);
+  const recommendationRef = useRef(null);
+  const textOne = useRef(null);
+  const textTwo = useRef(null);
+  const textThree = useRef(null);
+  const textFour = useRef(null);
 
   // Handling Scroll
   const handleWorkScroll = () => {
-    window.scrollTo({
-      top: workRef.current.offsetTop,
-      left: 0,
-      behavior: "smooth",
-    });
+    const el = workRef.current;
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const handleAboutScroll = () => {
-    window.scrollTo({
-      top: aboutRef.current.offsetTop,
-      left: 0,
-      behavior: "smooth",
-    });
+    const el = aboutRef.current;
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const handleRecommendationScroll = () => {
+  const el = recommendationRef.current;
+  if (!el) return;
+  el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   useIsomorphicLayoutEffect(() => {
@@ -62,6 +65,7 @@ export default function Home() {
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
+          handleRecommendationScroll={handleRecommendationScroll}
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
@@ -96,7 +100,7 @@ export default function Home() {
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
 
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-4">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
@@ -108,6 +112,13 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+          {/* Recommendations Section */}
+          {data.recommendations && data.recommendations.length > 0 && (
+            <div ref={recommendationRef}>
+              <RecommendationSection recommendations={data.recommendations} />
+            </div>
+          )}
         {/* 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
