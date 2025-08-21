@@ -64,8 +64,8 @@ export default function Home() {
       <div className="container mx-auto mb-10">
         <Header
           handleWorkScroll={handleWorkScroll}
-          handleAboutScroll={handleAboutScroll}
           handleRecommendationScroll={handleRecommendationScroll}
+          handleAboutScroll={handleAboutScroll}
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">

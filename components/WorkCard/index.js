@@ -13,7 +13,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
         <Image
           alt={name}
           src={img}
-          layout='fill'
+          fill
           sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-all ease-out duration-300 group-hover:scale-110"
         />
