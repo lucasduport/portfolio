@@ -16,61 +16,91 @@ const LinkedInLogo = () => (
 
 export default function RecommendationSection({ recommendations }) {
   return (
-    <section className="mt-10 laptop:mt-20 p-2 laptop:p-0">
-      <h1 className="tablet:m-10 text-2xl text-bold">Recommendations.</h1>
-      <div className="mt-5 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+    <section className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+      <h1 className="text-2xl text-bold">Recommendations.</h1>
+      <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
         {recommendations.map((rec, idx) => (
           <div
             key={idx}
-            className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link transition-all ease-out duration-300 bg-transparent dark:bg-transparent border border-gray-800 hover:scale-105 active:scale-100 shadow-lg flex flex-col justify-between h-full"
+            className="overflow-hidden rounded-2xl p-3 laptop:p-5 first:ml-0 link transition-all ease-out duration-300 bg-transparent dark:bg-transparent border border-white/10 hover:border-white/20 hover:scale-105 active:scale-100 shadow-lg flex flex-col justify-between h-full"
             style={{ minHeight: "300px" }}
           >
             <div>
-              <div className="flex items-center mb-2">
-                <span className="text-2xl font-medium mr-2">{rec.name}</span>
-                <a
-                  href={rec.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-2 text-blue-500 hover:underline"
-                  aria-label="LinkedIn"
-                >
-                  <LinkedInLogo />
-                </a>
-                {rec.companyLogo && rec.companyUrl && (
+              <div className="flex items-center flex-wrap gap-2 mb-2">
+                <span className="text-2xl font-semibold mr-1">{rec.name}</span>
+                {rec.linkedin && (
                   <a
-                    href={rec.companyUrl}
+                    href={rec.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="ml-4"
-                    aria-label={rec.company}
+                    className="text-blue-500 hover:text-blue-400"
+                    aria-label="LinkedIn"
                   >
-                    <Image
-                      src={rec.companyLogo}
-                      alt={rec.company + ' logo'}
-                      width={32}
-                      height={32}
-                      className="inline-block align-middle rounded"
-                      style={{ background: "transparent" }}
-                    />
+                    <LinkedInLogo />
                   </a>
                 )}
+                {/* Company name + logo on same line as the name */}
+                {rec.company && (
+                  <>
+                    <span className="opacity-50">•</span>
+                    {rec.companyUrl ? (
+                      <a
+                        href={rec.companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 hover:underline"
+                        aria-label={rec.company}
+                      >
+                        <span className="inline-flex items-center gap-2 px-2 py-1 rounded-full border border-white/10 hover:border-white/20 bg-white/5">
+                          {rec.companyLogo && (
+                            <Image
+                              src={rec.companyLogo}
+                              alt={rec.company + ' logo'}
+                              width={18}
+                              height={18}
+                              className="inline-block align-middle rounded"
+                              style={{ background: "transparent" }}
+                            />
+                          )}
+                          <span className="text-sm opacity-90">{rec.company}</span>
+                        </span>
+                      </a>
+                    ) : (
+                      <span className="inline-flex items-center gap-2 px-2 py-1 rounded-full border border-white/10 bg-white/5">
+                        {rec.companyLogo && (
+                          <Image
+                            src={rec.companyLogo}
+                            alt={rec.company + ' logo'}
+                            width={18}
+                            height={18}
+                            className="inline-block align-middle rounded"
+                            style={{ background: "transparent" }}
+                          />
+                        )}
+                        <span className="text-sm opacity-90">{rec.company}</span>
+                      </span>
+                    )}
+                  </>
+                )}
               </div>
-              <div className="text-lg opacity-50 mb-1">
-                {rec.position} @ {rec.company}
-              </div>
-              <ul className="mt-3 mb-4 list-disc pl-5 text-base">
+              <div className="text-sm uppercase tracking-wide opacity-60 mb-3">{rec.position}</div>
+              <div className="space-y-3 mb-4">
                 {rec.citations.map((quote, i) => (
-                  <li key={i} className="mb-2">“{quote}”</li>
+                  <div
+                    key={i}
+                    className="p-3 rounded-lg border border-black/10 bg-black/5 dark:border-white/10 dark:bg-white/5 text-base leading-relaxed italic"
+                  >
+                    “{quote}”
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
             <div>
               <a
                 href={rec.letterUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-2 text-sm tablet:text-base p-1 laptop:p-2 m-1 laptop:m-2 rounded-lg bg-gradient-to-r from-fuchsia-500 to-blue-500 text-white transition-all duration-300 ease-out hover:scale-105 active:scale-100 link"
+                className="inline-block mt-2 text-sm tablet:text-base px-3 py-2 m-1 laptop:m-2 rounded-lg bg-gradient-to-r from-fuchsia-500 to-blue-500 text-white transition-all duration-300 ease-out hover:scale-105 active:scale-100 link"
               >
                 Read the full letter
               </a>
