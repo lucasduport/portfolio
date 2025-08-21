@@ -1,0 +1,101 @@
+{
+  "name": "John Doe",
+  "headerTaglineOne": "Hi 👋",
+  "headerTaglineTwo": "I'm John Doe",
+  "headerTaglineThree": "Full‑stack Developer",
+  "headerTaglineFour": "based on Planet Earth.",
+  "showBlog": true,
+  "darkMode": false,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/johndoe" },
+    { "id": "2", "title": "LinkedIn", "link": "https://www.linkedin.com/in/johndoe" },
+    { "id": "3", "title": "Resume", "link": "/resume" },
+    { "id": "4", "title": "Email", "link": "mailto:johndoe@example.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Personal Portfolio",
+      "description": "A responsive portfolio website showcasing projects, blog posts, and contact information.",
+      "imageSrc": "https://via.placeholder.com/800x500.png?text=Portfolio",
+      "url": "https://example.com/portfolio"
+    },
+    {
+      "id": "2",
+      "title": "E-commerce Starter",
+      "description": "A minimal e-commerce template with product listings, cart, and checkout flow.",
+      "imageSrc": "https://via.placeholder.com/800x500.png?text=E-commerce",
+      "url": "https://example.com/ecommerce"
+    },
+    {
+      "id": "3",
+      "title": "Real-time Chat App",
+      "description": "WebSocket-based chat application with rooms, typing indicators, and message history.",
+      "imageSrc": "https://via.placeholder.com/800x500.png?text=Chat+App",
+      "url": "https://example.com/chat"
+    },
+    {
+      "id": "4",
+      "title": "Task Manager",
+      "description": "Kanban-style task manager with drag-and-drop and team collaboration.",
+      "imageSrc": "https://via.placeholder.com/800x500.png?text=Task+Manager",
+      "url": "https://example.com/tasks"
+    },
+    {
+      "id": "5",
+      "title": "Blog Engine",
+      "description": "Markdown-powered blog with tags, search, and RSS feed.",
+      "imageSrc": "https://via.placeholder.com/800x500.png?text=Blog",
+      "url": "https://example.com/blog"
+    },
+    {
+      "id": "6",
+      "title": "Analytics Dashboard",
+      "description": "Interactive dashboard with charts, filters, and export features.",
+      "imageSrc": "https://via.placeholder.com/800x500.png?text=Dashboard",
+      "url": "https://example.com/dashboard"
+    },
+    {
+      "id": "7",
+      "title": "API Boilerplate",
+      "description": "REST/GraphQL boilerplate with authentication, rate limiting, and testing.",
+      "imageSrc": "https://via.placeholder.com/800x500.png?text=API",
+      "url": "https://example.com/api"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Web Development",
+      "description": "Design and development of fast, responsive web applications."
+    },
+    {
+      "id": "2",
+      "title": "API Design",
+      "description": "Secure, well-documented REST/GraphQL APIs."
+    },
+    {
+      "id": "3",
+      "title": "Cloud & DevOps",
+      "description": "Deployments, CI/CD, monitoring, and scalability."
+    }
+  ],
+  "aboutpara": "Curious developer focused on clean code, usability, and performance. Enjoys building products end-to-end and learning new technologies.",
+  "showCursor": true,
+  "recommendations": [
+    {
+      "name": "Alex Smith",
+      "position": "Engineering Manager",
+      "company": "Acme Corp",
+      "linkedin": "https://www.linkedin.com/in/alex-smith",
+      "companyLogo": "https://via.placeholder.com/200x200.png?text=Acme",
+      "companyUrl": "https://example.com",
+      "citations": [
+        "John consistently delivers high-quality work on time.",
+        "Strong communicator who collaborates effectively across teams.",
+        "Raised the bar on code quality, testing, and documentation."
+      ],
+      "letterUrl": "https://example.com/letters/reference.pdf"
+    }
+  ]
+}
