@@ -25,49 +25,49 @@
       "id": "1",
       "title": "WhatsUpDoc",
       "description": "This project lead my group to the final of Google Hackathon “Solve for Healthcare & Life Sciences with Gemma”. We built a conversational human-like avatar AI assistant that guides patients through a pre-diagnosis with our specialized MedGemma-4B model before taking a medical appointment.",
-      "imageSrc": "https://raw.githubusercontent.com/lucasduport/portfolio/refs/heads/main/public/images/preview-whatsupdoc.png",
+  "imageSrc": "/images/preview-whatsupdoc.png",
       "url": "https://whatsupdoc-web-app.vercel.app/"
     },
     {
       "id": "2",
       "title": "Classification and Generation of reviews",
       "description": "Developed an NLP pipeline for predicting and generating TripAdvisor hotel reviews using classification and text generation models.",
-      "imageSrc": "https://elfsight.com/wp-content/uploads/2023/04/Carousel-Template-of-TripAdvisor-Reviews-Widget.jpg",
+  "imageSrc": "/images/preview-tripadvisor.jpg",
       "url": "https://github.com/ArthurCourselle/NLP_TripAdvisorReviews"
     },
     {
       "id": "3",
       "title": "IoT Ring Health Monitoring System",
       "description": "A scalable IoT system for monitoring health data from smart rings. It uses a microservices architecture with Kafka for real-time data streaming, MinIO for storage, and Apache Spark for analysis, featuring real-time anomaly detection and alerting.",
-      "imageSrc": "https://raw.githubusercontent.com/lucasduport/iot-ring-monitoring/main/docs/project-archi.png",
+  "imageSrc": "/images/preview-iotring.png",
       "url": "https://github.com/lucasduport/iot-ring-monitoring"
     },
     {
       "id": "4",
       "title": "Short Video Recommender System",
       "description": "Developed a content-based video recommendation system using the KuaiRec dataset, achieving 85% precision by leveraging user interactions and video metadata.",
-      "imageSrc": "https://media.licdn.com/dms/image/v2/C5612AQH3iHcmYUpKQw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1594566576732?e=2147483647&v=beta&t=PsEcyDdQ_rEeJh_CwTdkkSB2zBd-ZLpfrsgs-iI5V0k",
+  "imageSrc": "/images/preview-recommender.png",
       "url": "https://github.com/lucasduport/Final_Project_2025_Lucas_Duport"
     },
     {
       "id": "5",
       "title": "YoutubeGPT",
       "description": "A Python tool that generates concise audio summaries of YouTube videos in any language using ChatGPT and YouTube APIs. It takes a YouTube link and language preference as inputs, processes the video transcript, and outputs a summarized MP3 file.",
-      "imageSrc": "https://r2.erweima.ai/i/1uP9sQIlQLaj6dZDSDMgMg.png",
+  "imageSrc": "/images/preview-youtubegpt.jpg",
       "url": "https://github.com/lucasduport/YoutubeGPT"
     },
     {
       "id": "6",
       "title": "Ask your videos",
       "description": "Simple RAG project that allows users to query youtube videos and get answers based on their transcripts.",
-      "imageSrc": "https://miro.medium.com/v2/resize:fit:1400/1*7Lep2Jkqgt9BtiMt8icbSA.png",
+  "imageSrc": "/images/preview-langchain.png",
       "url": "https://github.com/lucasduport/AskYourVideos"
     },
     {
       "id": "7",
       "title": "Sudoku OCR",
       "description": "An OCR tool for solving Sudoku puzzles using image processing techniques. Implemented from scratch in C without any external libraries.",
-      "imageSrc": "https://pyimagesearch.com/wp-content/uploads/2020/08/opencv_sudoku_puzzle_thresh.png",
+  "imageSrc": "/images/preview-sudoku.png",
       "url": "https://github.com/lucasduport/sudoku-ocr"
     }
   ],
@@ -80,14 +80,14 @@
       "position": "Senior Member of Technical Staff, Manufacturing Data & Analytics Program",
       "company": "STMicroelectronics",
       "linkedin": "https://www.linkedin.com/in/philippe-vialletelle-3066a63/",
-  "companyLogo": "https://cdn-assets.inwink.com/e3d94d99-ffd5-4dcb-a655-6f0f2cd6d139/e595242f-7174-4889-8039-bee7e197a7be",
+  "companyLogo": "/logo/st.png",
   "companyUrl": "https://www.st.com",
       "citations": [
         "Lucas took on the challenging task of completely reengineering a proof-of-concept tool to finally propose an innovative solution for maintenance technicians leveraging generative AI techniques.",
         "Lucas consistently exhibited a proactive attitude, excellent teamwork, and effective communication skills, making valuable contributions to our team discussions and project milestones.",
         "The solution developed by Lucas is today being deployed as a pilot at 3 other factories to support the definition of our future industrial solution for maintenance line engineers and technicians."
       ],
-      "letterUrl": "https://raw.githubusercontent.com/lucasduport/portfolio/main/data/letters/st.pdf"
+      "letterUrl": "/letters/st.pdf"
     }
   ]
 }
