@@ -7,7 +7,7 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, handleRecommendationScroll,isBlog }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, handleRecommendationScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
