@@ -80,14 +80,14 @@
       "position": "Senior Member of Technical Staff, Manufacturing Data & Analytics Program",
       "company": "STMicroelectronics",
       "linkedin": "https://www.linkedin.com/in/philippe-vialletelle-3066a63/",
-  "companyLogo": "/logo/st.png",
+  "companyLogo": "/images/st.png",
   "companyUrl": "https://www.st.com",
       "citations": [
         "Lucas took on the challenging task of completely reengineering a proof-of-concept tool to finally propose an innovative solution for maintenance technicians leveraging generative AI techniques.",
         "Lucas consistently exhibited a proactive attitude, excellent teamwork, and effective communication skills, making valuable contributions to our team discussions and project milestones.",
         "The solution developed by Lucas is today being deployed as a pilot at 3 other factories to support the definition of our future industrial solution for maintenance line engineers and technicians."
       ],
-      "letterUrl": "/letters/st.pdf"
+      "letterUrl": "/letters/recommendation-st.pdf"
     }
   ]
 }

@@ -1,8 +1,8 @@
 export default async function handler(req, res) {
   const { language } = req.query;
   const pdfUrls = {
-    en: 'https://raw.githubusercontent.com/lucasduport/portfolio/main/public/cvs/CV_EN_2025.pdf',
-    fr: 'https://raw.githubusercontent.com/lucasduport/portfolio/main/public/cvs/CV_FR_2025.pdf',
+    en: 'https://portfolio.lucasduport.cc/cvs/CV_EN_2025.pdf',
+    fr: 'https://portfolio.lucasduport.cc/cvs/CV_FR_2025.pdf',
   };
 
   const url = pdfUrls[language];
