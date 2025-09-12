@@ -49,7 +49,6 @@
       "imageSrc": "/images/preview-iotring.png",
       "url": "https://github.com/lucasduport/iot-ring-monitoring"
     },
-
     {
       "id": "5",
       "title": "Classification and Generation of reviews",
@@ -59,24 +58,17 @@
     },
     {
       "id": "6",
+      "title": "My own infrastructure as code",
+      "description": "Building a personal infrastructure as code while a simple setup for GitOps (Portainer EE + GitHub).",
+      "imageSrc": "/images/preview-infra.png",
+      "url": "https://github.com/lucasduport/infra"
+    },
+    {
+      "id": "7",
       "title": "Sudoku OCR",
       "description": "Built a complete OCR system to detect, recognize, and solve Sudoku grids (and Hexadoku) from images. Implemented the entire image processing pipeline manually (resizing, rotation, filtering, Hough transform, grid extraction) without relying on external libraries. Custom neural networks (TMNIST, MNIST, EMNIST datasets), achieving over 96% accuracy.",
       "imageSrc": "/images/preview-sudoku.png",
       "url": "https://github.com/lucasduport/sudoku-ocr"
-    },
-    {
-      "id": "7",
-      "title": "YoutubeGPT",
-      "description": "A Python tool that generates concise audio summaries of YouTube videos in any language using ChatGPT and YouTube APIs. It takes a YouTube link and language preference as inputs, processes the video transcript, and outputs a summarized MP3 file.",
-      "imageSrc": "/images/preview-youtubegpt.jpg",
-      "url": "https://github.com/lucasduport/YoutubeGPT"
-    },
-    {
-      "id": "8",
-      "title": "Ask your videos",
-      "description": "Simple RAG project that allows users to query youtube videos and get answers based on their transcripts.",
-      "imageSrc": "/images/preview-langchain.png",
-      "url": "https://github.com/lucasduport/AskYourVideos"
     }
   ],
   "services": [],
