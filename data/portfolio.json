@@ -30,41 +30,48 @@
     },
     {
       "id": "2",
+      "title": "La Télécommande",
+      "description": "Mistral MCP Hackathon project: La Télécommande turns Mistral into a DevOps co-pilot. From a simple prompt, you can configure servers, deploy apps, or run commands across any machine—locally or remotely.",
+      "imageSrc": "/images/preview-latelecommande.png",
+      "url": "https://github.com/Mistral-MCP-Hackathon-2025/mcp-la_telecommande"
+    },
+    {
+      "id": "3",
       "title": "Short Video Recommender System",
       "description": "Developed a content-based video recommendation system using the KuaiRec dataset, achieving 85% precision by leveraging user interactions and video metadata.",
       "imageSrc": "/images/preview-recommender.png",
       "url": "https://github.com/lucasduport/Final_Project_2025_Lucas_Duport"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Ship Classification",
       "description": "Built a CNN to classify 13 ship types from 32×32 images under a 30-layer limit. Boosted accuracy with progressive training and balanced augmentation across phases while preventing overfitting through early stopping and LR scheduling.",
       "imageSrc": "/images/preview-ship.png",
       "url": "https://github.com/lucasduport/ship-classification"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Distributed IoT Ring Health Analytics System",
       "description": "A scalable IoT system for monitoring health data from smart rings. It uses a microservices architecture with Kafka for real-time data streaming, MinIO for storage, and Apache Spark for analysis, featuring real-time anomaly detection and alerting.",
       "imageSrc": "/images/preview-iotring.png",
       "url": "https://github.com/lucasduport/iot-ring-monitoring"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Classification and Generation of reviews",
       "description": "Developed an NLP pipeline for predicting and generating TripAdvisor hotel reviews using classification and text generation models.",
       "imageSrc": "/images/preview-tripadvisor.jpg",
       "url": "https://github.com/ArthurCourselle/NLP_TripAdvisorReviews"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "My own infrastructure as code",
       "description": "Building a personal infrastructure as code while a simple setup for GitOps (Portainer EE + GitHub).",
       "imageSrc": "/images/preview-infra.png",
       "url": "https://github.com/lucasduport/infra"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "Sudoku OCR",
       "description": "Built a complete OCR system to detect, recognize, and solve Sudoku grids (and Hexadoku) from images. Implemented the entire image processing pipeline manually (resizing, rotation, filtering, Hough transform, grid extraction) without relying on external libraries. Custom neural networks (TMNIST, MNIST, EMNIST datasets), achieving over 96% accuracy.",
       "imageSrc": "/images/preview-sudoku.png",
