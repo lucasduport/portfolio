@@ -24,14 +24,14 @@
     {
       "id": "1",
       "title": "WhatsUpDoc",
-      "description": "This project lead my group to the final of Google Hackathon “Solve for Healthcare & Life Sciences with Gemma”. We built a conversational human-like avatar AI assistant that guides patients through a pre-diagnosis with our specialized MedGemma-4B model before taking a medical appointment.",
+      "description": "This project lead us to the final of Google Hackathon. WhatsUpDoc is a conversational human-like avatar AI assistant that guides patients through a pre-diagnosis with our specialized MedGemma-4B model before taking a medical appointment.",
       "imageSrc": "/images/preview-whatsupdoc.png",
       "url": "https://whatsupdoc-web-app.vercel.app/"
     },
     {
       "id": "2",
       "title": "La Télécommande",
-      "description": "Mistral MCP Hackathon project: La Télécommande turns Mistral into a DevOps co-pilot. From a simple prompt, you can configure servers, deploy apps, or run commands across any machine—locally or remotely.",
+      "description": "This project was voted the People's Choice Award at the Mistral MCP Hackathon. La Télécommande turns Mistral into a DevOps co-pilot. From a simple prompt, you can configure servers, deploy apps, or run commands across any machine, locally or remotely.",
       "imageSrc": "/images/preview-latelecommande.png",
       "url": "https://github.com/Mistral-MCP-Hackathon-2025/mcp-la_telecommande"
     },
