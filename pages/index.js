@@ -55,7 +55,30 @@ export default function Home() {
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
-        <title>{data.name}</title>
+        <title>{data.name} - Portfolio</title>
+        <meta name="description" content={`${data.name} - ${data.headerTaglineThree} ${data.headerTaglineFour} Explore my projects.`} />
+        <meta name="author" content="Lucas Duport" />
+        
+        {/* Open Graph / Facebook / LinkedIn */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Lucas Duport - Portfolio" />
+        <meta property="og:description" content="Passionate EPITA student based in Paris, France. Explore my projects." />
+        <meta name="image" property="og:image" content="https://lucasduport.cc/images/avatar.png" />
+        <meta property="og:image" content="https://lucasduport.cc/images/avatar.png" />
+        <meta property="og:image:secure_url" content="https://lucasduport.cc/images/avatar.png" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" />
+        <meta property="og:image:alt" content="Lucas Duport - Portfolio" />
+        <meta property="og:url" content="https://lucasduport.cc" />
+        <meta property="og:site_name" content="Lucas Duport Portfolio" />
+        <meta property="og:locale" content="en_US" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Lucas Duport - Portfolio" />
+        <meta name="twitter:description" content="Passionate EPITA student based in Paris, France. Explore my projects." />
+        <meta name="twitter:image" content="https://lucasduport.cc/images/avatar.png" />
+        <meta name="twitter:image:alt" content="Lucas Duport - Portfolio" />
       </Head>
 
       <div className="gradient-circle"></div>
